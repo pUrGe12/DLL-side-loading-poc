@@ -8,6 +8,11 @@ To see how it all fits,
 - Run the binary to get the expected result
 - Move the `good_dll.dll` to the previous directory and rename `mal_dll.dll` as good_dll.dll
 
+Compile the `Malware.cpp` using
+
+    g++ -o malware Malware.cpp
+and run that to do all the above automatically
+
 Going by how windows searches for relevant DLLs, it will first look in the current directory for `good_dll.dll` and thus, read our malicious DLL and load that instead.
 
 - Run the binary again and get the hacked message
