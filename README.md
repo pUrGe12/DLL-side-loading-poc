@@ -22,4 +22,4 @@ Compile the `Malware.cpp` using
 and run that to do all the above automatically
 
 
-The [extended version](https://github.com/pUrGe12/DLL-side-loading-poc/tree/main/extended) contains code relevant to WinSxS directory and a more traditional DLL side-loading. 
+The [extended version](https://github.com/pUrGe12/DLL-side-loading-poc/tree/main/extended) contains code relevant to WinSxS directory and a more traditional DLL side-loading by manipulating registry keys 
