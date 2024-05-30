@@ -1,5 +1,7 @@
 # DLL-side-loading-poc
-This repo contains a proof of concept for a technique called DLL side-loading, used to import malicious code into legitimate executables. The [extended version](https://github.com/pUrGe12/DLL-side-loading-poc/tree/main/extended) contains code relevant to WinSxS directory and a more traditional DLL side-loading by manipulating registry keys 
+This repo contains a proof of concept for a technique called DLL side-loading, used to import malicious code into legitimate executables. The [extended version](https://github.com/pUrGe12/DLL-side-loading-poc/tree/main/extended) contains code relevant to WinSxS directory and a more traditional DLL side-loading by manipulating registry keys.
+
+Note that, I have not linked the DLLs while compiling, instead have called them using `LoadLibraryA()`. This is because it makes for an easier demonstration.
 
 First we'll be looking at DLL search order hijacking.
 
